@@ -1,0 +1,23 @@
+h1 {
+    color: #ff0000;
+}
+a:link{
+    color: #00ff00;
+}
+a:hover{
+    color: #aa0077;
+}
+a:visited{
+    color: #004477
+}
+.lookdifferent:hover{
+    color: #999999
+}
+body{
+    background-image: url(../classimages/LI-Bug.svg.original.svg);
+    background-color: #ff8962;
+    background-size: 100%;
+}
+p{
+    background-color: white
+}
