@@ -19,12 +19,12 @@ h1{
 h2{
     color:#e48257;
 }
-nav a{color:#e48257}
+nav a{color:#e48257;}
 nav a:hover{
-    background-color:#393232
+    background-color:#393232;
 }
 nav a:visited{
-    color:#8855ff
+    color:#8855ff;
 }
 nav{
     padding: 10px;
