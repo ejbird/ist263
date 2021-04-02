@@ -10,8 +10,9 @@ p{
 
     color:#f2edd7;
 }
-img{
-    background-color: #f2edd7;
+.img1{
+
+    float: left;
 }
 h1{
     color:#e48257;
@@ -32,4 +33,7 @@ nav{
 }
 .pquote{
     float: right;
+}
+.clear{
+    clear: both;
 }
