@@ -38,8 +38,31 @@ nav{
 .clear{
     clear: both;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:768px){
     body{background-color: green;}
     nav{size:100%;}
 }
+.firstrow{
+    float: left;
+    margin-right:50px;
+    background-color: #368643;
+    color: #ffffff;
+    margin: 30px;
+    border-radius: 25px;
+}
+.clear{
+    clear: both;
+}
+.address{
+    float:left;
+}
+.secondrow{
+    display: flex;
+    background-color: #ee8888;
+    border-radius: 25px;
+    flex-wrap: wrap;
+}
+.maprow, .formrow{margin: 45px;}
+
+
 
