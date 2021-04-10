@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #3a6351;
     color: #f2edd7;
 }
-ul{
+table{
    
     color:#f2edd7;
 }
@@ -40,7 +40,14 @@ nav{
 }
 @media only screen and (max-width:768px){
     body{background-color: green;}
-    nav{size:100%;}
+    nav{
+    size:100%;
+    display: block
+    }
+    span{
+        display:none;
+    }
+    
 }
 .firstrow{
     float: left;
