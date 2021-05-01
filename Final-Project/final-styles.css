@@ -1,0 +1,37 @@
+
+.navbar{
+    background-color: #000000;
+    overflow: hidden;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    padding: 1%;
+    text-align: center;
+    color: #ffffff;
+}
+.flexcontainer {
+    display: flex;
+}
+.firstrow, .secondrow{
+    display:flex;
+}
+.firstcol, .secondcol{
+    flex:1;
+
+}
+div{
+    border: 1px
+}
+footer{
+    background-color: #000e54;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    size: 10%;
+}
