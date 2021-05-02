@@ -50,6 +50,9 @@ nav a {
     flex:1;
 
 }
+.secondrow a, .secondcol a {
+    color: #ffffff;
+}
 div{
     border: 1px;
 }
