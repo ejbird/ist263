@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QuietCamps</title>
+        <link rel="stylesheet" href="final-styles.css">
+        <script>
+            function changenav() {
+                if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                    document.getElementById("navlinks").style.display = "none";
+
+                }
+                else{
+                    document.getElementById("navlinks").style.display = "block"; 
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1><strong>QuietCamps</strong></h1>
+            <p>Find lesser-known outdoor spots near you.</p>
+            <nav>
+                <img src="media/hamicon.png" id="hamicon" width="35" alt="Hamburger icon" onclick="changenav();">
+                <div id="navlinks">
+                    <a href="qc-index.html" tabindex="1">Home</a>
+                    <a href="about-page.html" tabindex="2">Contact</a>
+                    <a href="tuckerman-ravine.html" tabindex="3">Tuckerman Ravine</a>
+                    <a href="shelving-rock.html" tabindex="4">Shelving Rock Falls</a>
+                    <a href="south-meadows.html" tabindex="5">South Meadows Camping Area</a>
+                </div>
+            </nav>
+        </header>
+            <main>
+                <h2>About QuietCamps:</h2>
+                <p> QuietCamps is your one-stop-shop for your outdoor recreation needs. Our unique criteria for featured camps and other outdoors location means our reccommendations will always be quiet and high-quality.</p>
+                <h2>Featured Spots</h2>
+                <div class= "flexcontainer">
+                    <article>
+                        <h3>Tuckerman Ravine, Gorham, NH</h3>
+                        <p><img src="https://live.staticflickr.com/7528/15417094013_8b61f852c5_b.jpg" alt="Looking into Tuckerman Ravine" width=200 height=250></p>
+                        <p>The southern bowl of Mount Washington is known to be a weather anomaly.<br> Because of wind patterns that blow surrounding snow into the bowl, Tuckerman Ravine<br> receives an average of 40 to 52 feet of snow per year </p>
+                        <a href="tuckerman-ravine.html">More info on  Tuckerman Ravine</a>
+                    </article>
+                    <article>
+                        <h3>Shelving Rock, Lake George, NY</h3>
+                        <p><img src="https://seeswim.com/wp-content/uploads/2015/01/Shelving-Rock-Falls-3597.jpg" alt="Shelving Rock Falls" width=200 height=250></p>
+                        <p>Shelving Rock falls is a recreation area is located in NYS Forest service land. Thus, primitive camping<br> sites are free and because of its distance from  the Town of Lake George,<br> this is a lightly trafficked area, making it a great spot to hike or camp.</p>
+                        <a href="shelving-rock.html">More info on Shelving Rock Falls</a>
+                    </article>
+                    <article>
+                        <h3>South Meadows Campsites, Lake Placid, NY</h3>
+                        <p><img src="https://www.lakeplacid.com/f/styles/simple_image_slideshow/public/listing/3209/south-meadow-golden-fall-river-mountains.jpg?itok=siUmM-0d" alt="Views from South Meadows campsites" width=200 height=250></p>
+                        <p>South Meadows is a smaller camping area off of the busier Adirondack Loj road.<br>The quiet location and proximity to the high peaks<br> makes south Meadows a great spot for campers and hikers alike.</p>
+                        <a href="south-meadows.html">More info on South Meadows Campsites</a>
+                    </article>
+                </div>
+            </main>
+            <footer>
+                <div class="firstrow">
+                    <div class="firstcol">
+            
+                            <p>
+            
+                                            QuietCamps 
+                                <br>
+            
+                                            220 Small Rd
+                                <br>
+            
+                                            Syracuse, NY 13244
+                                            
+                            </p>
+                    </div>
+                        <div class="secondcol">
+            
+                            <p>
+                                <strong>References</strong>
+                                <br>
+            
+                                        <a href="https://www.google.com/maps">Google Maps</a>
+                                <br>
+            
+                                        <a href="https://www.w3schools.com">W3 Schools</a>
+                                <br>
+            
+                                        <a href="https://www.booked.net/widgets/weather?cityid=11041">Weather Widget</a>
+                                <br>         
+                            </p>
+                    </div>
+                </div>
+                <div class="secondrow">
+            
+                        <a href="mailto:ejbird@syr.edu">Email Me</a>
+                    <br>
+                        <a href="https://www.linkedin.com/in/erikbird" target="_blank"><img src="media/logo-sized.png" alt="LinkedIn Logo"></a> 
+                </div>
+            </footer>
+   </body>
+</html>
