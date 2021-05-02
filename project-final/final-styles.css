@@ -13,8 +13,8 @@ main{
     color: #ffffff;
 }
 article {
-    background-color: #7B7A63;
-    color: #fedaeb;
+    background-color: #b98988;
+    color: #103f49;
     padding: 1%;
     margin: 1%;
     border-radius: 5%;
@@ -45,7 +45,6 @@ nav a {
 #hamicon {width: 35px; display: none;}
 .firstrow, .secondrow{
     display:flex;
-    padding: 1%
 }
 .firstcol, .secondcol{
     flex:1;
