@@ -76,6 +76,46 @@ footer{
     #hamicon {display: block;}
     #navlinks{display: none;}
 }
+#skipbutton{
+    position: absolute;
+    left: -999px;
+    background-color: greenyellow;
+    border: black 1px;
+}
+#skipbuttun:focus{
+    position: absolute;
+    left: 10px;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.clear{
+  clear: both;  
+}
+.row1{
+    flex:1;
+}
+.row2{
+    flex:2;
+}
+.contactdiv{
+    background-color: #d7d1dc;
+    color: #103f49;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 8%;
+}
+.flexcontainerwrap {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 
 
 
