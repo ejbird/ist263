@@ -9,7 +9,7 @@ header{
     color: #ffffff;
 }
 main{
-    background-color:	#685A67;
+    background-color:#685A67;
     padding: 2%;
     color: #ffffff;
 }
@@ -19,6 +19,7 @@ article {
     padding: 1%;
     margin: 1%;
     border-radius: 5%;
+    overflow:auto;
 
 }
 nav{
@@ -40,7 +41,6 @@ nav a {
 }
 .flexcontainer {
     display: flex;
-    flex-direction: row;
     color: #ffffff;
 }
 #hamicon {width: 35px; display: none;}
@@ -95,18 +95,12 @@ footer{
 .clear{
   clear: both;  
 }
-.row1{
-    flex:1;
-}
-.row2{
-    flex:2;
-}
 .contactdiv{
     background-color: #d7d1dc;
     color: #103f49;
     padding: 1%;
     margin: 1%;
-    border-radius: 8%;
+    border-radius: 5%;
 }
 .flexcontainerwrap {
     display: flex;
@@ -115,6 +109,15 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.crossbox{
+background-color: #d7d1dc;
+color: #103f49;
+padding: 1%;
+margin: 1%;
+border-radius: 5%;
+flex-direction: column
+}
+
 
 
 
